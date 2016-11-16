@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+<!--创建一个背景为蓝色的View，并且添加点击事件,输出启动日志-->
+  <view  bindtap="bindViewTap" class="myView">
+    <text class="myView-clickK">点我点我</text>
+  </view>
+
+<!--创建了一个text标签，然后执行了JS交互，在indexindex.js中进行赋值-->
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

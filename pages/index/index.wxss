@@ -1,0 +1,30 @@
+/**index.wxss**/
+/**rpx单位是微信小程序中css的尺寸单位，rpx可以根据屏幕宽度进行自适应。
+规定屏幕宽为750rpx。如在 iPhone6 上，屏幕宽度为375px，共有750个物理像素，
+则750rpx = 375px = 750物理像素，1rpx = 0.5px = 1物理像素。开发建议：
+开发微信小程序时设计师可以用 iPhone6 作为视觉稿的标准。UI设计图建议：使用
+设计稿使用设备宽度750px比较容易计算750px的话1rpx=1px，这样的话，设计图上量出
+来的尺寸是多少px就是多少rpx**/
+.myView{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: -100rpx;
+  background-color: blue;
+}
+.myView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.myView-clickK {
+  margin-top: 75rpx;
+  height: 50rpx;
+  color: red;
+}
+.usermotto {
+  margin-top: 100rpx;
+}

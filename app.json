@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D6D6D6",
+    "navigationBarTitleText": "这是一个WeChat小程序Demo",
+    "navigationBarTextStyle":"red"
+  }
+}
